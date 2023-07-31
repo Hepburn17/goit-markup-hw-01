@@ -14,16 +14,7 @@ body {
   	line-height: normal;
 }
 
-.header {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 72px;
-  	color: #434455;
-}
-
-.topline {
+header {
   	position: absolute;
   	top: 0px;
   	left: 0px;
@@ -470,7 +461,6 @@ footer {
   	left: 0px;
   	width: 1440px;
   	height: 312px;
-  	color: #f4f4fd;
 }
 
 .darkbg1 {
@@ -539,6 +529,7 @@ footer {
   	line-height: 24px;
   	display: inline-block;
   	width: 264px;
+	color: #f4f4fd;
 }
 
 </style>
@@ -546,39 +537,36 @@ footer {
 
 <body>
     <header>
-        <div class="header">
-              <div class="topline">
-                    <div class="toplinebg">
-                    </div>
-					<nav>
-                    <div class="logo">
-                        <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="web" style="text-decoration:none">WEB
-                        <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="studio" style="text-decoration:none">STUDIO</a>
-                    </div>
-                    <ul class="menu">
-                        <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Studio </a></li>
-                        <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Portfolio</a></li>
-                        <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Contacts</a></li>
-                    </ul>
-					</nav>
-					<address>
-                    <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="cont">+11 (000) 111-11-11</a>
+        <div class="toplinebg"></div>
+			<nav>
+                <div class="logo">
+                    <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="web" style="text-decoration:none">WEB
+                    <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="studio" style="text-decoration:none">STUDIO</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Studio </a></li>
+                    <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Portfolio</a></li>
+                    <li><a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296605-7&mode=design&t=STd6ZKeIQjFhvu47-4" target="_blank" style="text-decoration:none" class="content">Contacts</a></li>
+                </ul>
+			</nav>
+				<address>
+                	<a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=297080-7250&mode=design&t=STd6ZKeIQjFhvu47-4" class="cont">+11 (000) 111-11-11</a>
                     <a class="info">info@devstudio.com</a>
-					</address>
-              </div>
-        </div>
+				</address>
     </header>
+
 <main>
-    <div class="heroimage">
+
+    <section class="heroimage">
         <div class="darkbg"></div>
             <h1 class="header1">
                 <p class="goal">Effective Solutions</p>
                 <p class="goal">for Your Business</p>
             </h1>
                 <button class="button">Order Service</button>
-  </div>
+	</section>
 
-  <section class="section1">
+  	<section class="section1">
 
         <li class="feature1">
              <h3 class="section1-text">Strategy</h3>
@@ -588,18 +576,17 @@ footer {
             <h3 class="section1-text">Punctuality</h3>
             <p class="section1-content">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
 		</li>
-    <li class="feature3">
+    	<li class="feature3">
             <h3 class="section1-text">Diligence</h3>
             <p class="section1-content">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-	</li>
-    <li class="feature4">
+		</li>
+    	<li class="feature4">
             <h3 class="section1-text">Technologies</h3>
             <dp class="section1-content">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-	</li>
+		</li>
+	</section>
 
-</section>
-
-  <section class="section2">
+  	<section class="section2">
 
         <h2 class="header2">What are we doing</h2>
 		<ul>
@@ -615,7 +602,7 @@ footer {
 		</ul>
 	</section>
 
-  <section class="section3">
+ 	 <section class="section3">
         <div class="lightbg"></div>
          <h2 class="header3">Our Team</h2>
 		<ul>
@@ -653,8 +640,10 @@ footer {
                </div>
 		</li>
 		</ul>
-  </div>
+	</section>
+
 </main>
+
 <footer>
         <div class="darkbg1"></div>
         <div class="text">
@@ -665,7 +654,6 @@ footer {
                 <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
 </footer>
-
 
 </body>
 </html>
